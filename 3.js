@@ -1,4 +1,4 @@
-var consent = confirm("Do you agree to share yout personal information with this site?");
+var consent = confirm("Do you agree to share your personal information with this site?");
 if (consent) {
     console.log("Name: " + nickname);
     console.log("Height: " + feet + "'" + inches + ";");
