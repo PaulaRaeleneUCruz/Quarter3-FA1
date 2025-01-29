@@ -6,9 +6,6 @@ var nickname = "Paula";
     var inches = heightInInches % 12;
     var weightInLbs = weightInKg * 2.205;
 
-    alert(
-        "Name: " + nickname +
-        "\nHeight: " + feet + "'" + inches + "\"" +
-        "\nWeight: " + weightInLbs + " lbs"
-    );
+    alert(`Name: " + nickname + "\nHeight: " + feet + "'" + inches + "\"" +
+        "\nWeight: " + weightInLbs + " lbs`);
     
